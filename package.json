@@ -1,0 +1,26 @@
+{
+  "name": "nuxt3-opfs-sqlite-poc",
+  "private": true,
+  "author": {
+    "name": "Dallas Hoffman",
+    "email": "contact@dallashoffman.com"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.3",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "vue-tsc": "^1.6.4"
+  },
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "^3.41.2-build12",
+    "module-workers-polyfill": "^0.3.2"
+  }
+}
